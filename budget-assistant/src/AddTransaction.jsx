@@ -11,7 +11,6 @@ function AddTransactionWithDate() {
     const [endDate, setEndDate] = useState(new Date()); // 篩選的結束日期
     const [amount, setAmount] = useState(''); // 金額
     const [description, setDescription] = useState(''); // 描述
-    const [kind, setKind] = useState('');
     const [type, setType] = useState('expense'); // 交易類型，預設為支出
     const [transactions, setTransactions] = useState([]); // 所有交易紀錄
     const [filteredTransactions, setFilteredTransactions] = useState([]); // 選擇日期的交易紀錄
